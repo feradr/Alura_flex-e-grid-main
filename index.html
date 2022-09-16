@@ -16,12 +16,46 @@
 
     <header class="cabecalho">
 
-        <button class="cabecalho__menu">menu</button>
+        <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
         <img class="cabecalho__logo" src="./assets/img/logo.svg" alt="Logotipo da HZC">
-        <button class="cabecalho__notificacao">Notificação</button>
+        <button class="cabecalho__notificacao" aria-label="Notificação"><i></i></button>
 
     </header>
 
+    <nav class="menu-lateral">
+        <img class="menu-lateral__logo" src="assets/img/logo.svg" alt="Logotipo da HZC">
+
+        <a class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo" href="#">Inicio</a>
+        
+        <a class="menu-lateral__link menu-lateral__link--videos" href="#">Vídeos</a>
+
+        <a class="menu-lateral__link menu-lateral__link--picos" href="#">Picos</a>
+
+        <a class="menu-lateral__link menu-lateral__link--integrantes" href="#">Integrates</a>
+
+        <a class="menu-lateral__link menu-lateral__link--camisas" href="#">Camisas</a>
+
+        <a class="menu-lateral__link menu-lateral__link--pinturas" href="#">Pinturas</a>
+
+    </nav>
+
+    <main class="principal">
+        <h2 class="titulo-pagina">Inicio</h2>
+
+        <article class="cartao">
+            <img src="./assets/img/banner-mobile_1.png" alt="Banner do Cartão" class="cartao__imagem">
+            <div class="cartao__conteudo">
+                <p class="cartao__destaque">Video em destaque</p>
+                <h3 class="cartao__titulo">HZC - Titulo</h3>
+                <p class="cartao__perfil">Bruno Lopez</p>
+                <p class="cartao__info cartao__info--tempo">33 minutos</p>
+                <p class="cartao__info cartao__info--visualizacao">33 visualizações</p>
+                <button class="cartao__botao cartao__botao--destaque cartao__botao--play">Assistir agora</button>
+            </div>
+        </article>
+    </main>
     
+
+    <script src="./index.js"></script>
 </body>
 </html>
